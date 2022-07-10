@@ -1,0 +1,102 @@
+<!-- <%- include('partials/header'); -%>
+
+<header>
+  <div class="smoothie">
+    <img src="/smoothie.png" alt="">
+  </div>
+  <div class="headings">
+    <h2>Smoothie Recipes</h2>
+    <h3>By Ninjas For Ninjas</h3>
+    <a href="/smoothies" class="btn">View Recipes</a>
+  </div>
+</header>
+
+
+<%- include('partials/footer'); -%> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Welcome - Manage your Teams</title>
+    <!-- Favicon -->
+    <link rel="icon" href="../img/brand/favicon.png" type="image/png" />
+    <!-- Font Awesome 5 -->
+    <link
+      rel="stylesheet"
+      href="../libs/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <!-- Page CSS -->
+    <link
+      type="text/css"
+      href="../libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css"
+      rel="stylesheet"
+    />
+    <!-- Purpose CSS -->
+    <link rel="stylesheet" href="../css/purpose.css" id="stylesheet" />
+    <style>
+      body {
+        overflow-y: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-content">
+      <section
+        class="spotlight bg-cover bg-size--cover"
+        data-spotlight="fullscreen"
+        style="background-image: url('../img/backgrounds/img-10.jpg')"
+      >
+        <span class="mask bg-dark opacity-7"></span>
+        <div class="spotlight-holder pt-9 pb-6 py-lg-0">
+          <div class="container d-flex align-items-center px-0">
+            <div class="col">
+              <div class="row row-grid">
+                <div class="col-lg-6">
+                  <div class="py-6 text-center text-lg-left">
+                    <h2 class="display-4 text-white mb-4">Managify</h2>
+                    <p class="lead lh-180 text-white">
+                      We want to optimize the team collaboration so that your
+                      team can save time and work effitently.
+                    </p>
+                    <div class="mt-5">
+                      <a
+                        href="/login"
+                        class="btn btn-white rounded-pill px-5 mr-lg-4 box-shadow-2"
+                        >Login</a
+                      >
+                      <a
+                        href="/signup"
+                        class="btn btn-outline-white btn-icon rounded-pill px-4"
+                      >
+                        <span class="btn-inner--text">Create an Account</span>
+                        <span class="btn-inner--icon"
+                          ><i class="fas fa-long-arrow-alt-right"></i
+                        ></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Core JS - includes jquery, bootstrap, popper, in-view and sticky-kit -->
+    <script src="../js/purpose.core.js"></script>
+    <!-- Page JS -->
+    <script src="../libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <!-- Purpose JS -->
+    <script src="../js/purpose.js"></script>
+    <!-- Demo JS - remove it when starting your project -->
+    <script src="../js/demo.js"></script>
+  </body>
+</html>
